@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "lineto-brown-pro-light";
+    src: url(assets/fonts/lineto-brown-pro-light.woff);
+}
+
+@font-face {
+    font-family: "lineto-brown-pro-regular";
+    src: url(assets/fonts/lineto-brown-pro-regular.woff);
+}
+
+@font-face {
+    font-family: "lineto-brown-pro-bold";
+    src: url(assets/fonts/lineto-brown-pro-bold.woff);
+}
+
+@keyframes play-logo {
+    0%{
+        background-position: -1px -1px;
+    }
+    100%{
+        background-position: -1px -1276px;
+    }
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.ff-lineto-light{
+    font-family: "lineto-brown-pro-light" !important;
+}
+
+.ff-lineto-regular{
+    font-family: "lineto-brown-pro-regular" !important;
+}
+
+.ff-lineto-bold{
+    font-family: "lineto-brown-pro-bold" !important;
+}
+
+.text-small{
+    font-size: .9rem !important;
+}
+
+#brand-logi:hover #img-2{
+    display: block !important;
+}
+
+#brand-logi:hover #img-1{
+    display: none !important;
+}
+
+#brand-logi{
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    position: relative;
+    margin-right: 1rem;
+    /*  */
+}
+
+#img-1,#img-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+}
+
+#our-brands{
+    border-left: 1px solid #908f8f;
+    padding-left: 1rem;
+}
+
+.dropdown-toggle::after{
+    display: none !important;
+}
+
+.dropdown-menu{
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 0px !important;
+    min-width: 100px !important;
+    padding: 0px;
+}
+
+.list-group{
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.list-group-item{
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #a7a5a5;
+}
+
+.text-grey-500{
+    color: rgb(55, 55, 55);
+}
+
+#logi-brand{
+    background-size: 120px 1312px;
+    height: 100%;
+    width: 100%;
+    background-position: -1px -1276px;
+    background-repeat: no-repeat ;
+}
+
+#logi-brand:hover{
+    animation: play-logo 1.2s steps(34) 0s forwards;
+}
+
+.nav-icon{
+    font-size: 1.4rem !important;
+}
+
+#searchInp{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 0px;
+    border-radius: 1rem;
+}
+
+#searchInp::placeholder{
+    color: white !important;
+    padding-left: 5px;
+}
+
+.btn-logi {
+    background-color: #00ead0;
+    color: black;
+    border: 0px;
+    padding: 10px 30px;
+    border-radius: 3px;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    max-width: 200px;
+}
+
+.nav-link{
+    padding: 7px 15px;
+    border-radius: 1.5rem;
+}
+
+.nav-link:hover{
+    background-color: white !important;
+    color:black !important
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+}
+
+.dropdown-menu.nav-tabs{
+    min-width: auto;
+    width: 100% !important;
+    right: 0 !important;
+    left: auto !important;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
